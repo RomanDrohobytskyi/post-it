@@ -1,0 +1,13 @@
+<app-sticky-notes-add></app-sticky-notes-add>
+
+<div>
+  <table>
+    <tbody>
+    <tr *ngFor="let stickyNote of stickyNotes">
+      <td>
+        <app-single-sticky-note [stickyNote]="stickyNote"></app-single-sticky-note>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

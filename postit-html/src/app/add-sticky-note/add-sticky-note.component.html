@@ -1,0 +1,11 @@
+<div class="note">
+  <div class="note-content">
+    <form (ngSubmit)="addStickyNote()">
+      <input type="text" id="content" [(ngModel)]="stickyNote.content" name="content">
+      <div>
+        <button
+          type="submit">Add</button>
+      </div>
+    </form>
+  </div>
+</div>

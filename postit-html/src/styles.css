@@ -1,0 +1,23 @@
+body {
+  background-color: #E6EFF6;
+}
+
+.note {
+  width: 15em;
+  height: 15em;
+  padding: 1em;
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F6EF82;
+  box-shadow: rgba(0, 0, 0, 1) 0 5px 8px;
+  transform: rotate(3deg);
+}
+
+.note-content {
+  text-align: center;
+  transform: rotate(-3deg);
+  font-size: large;
+}
+
